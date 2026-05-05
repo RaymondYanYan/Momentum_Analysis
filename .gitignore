@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+monitor.log
+
+# State files
+monitor_state.json
+
+# Data
+sp500_scan_results.csv
+
+# Secrets (but .env is tracked with placeholder)
+.env.local
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+docs.md
+recent_backtest.py
+TELEGRAM_ALERT_ENHANCEMENT_SUMMARY.md
