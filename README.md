@@ -33,9 +33,6 @@ Fin_tracker/
 ### 1. Install Dependencies
 
 ```bash
-cd Fin_tracker
-./venv/bin/pip install -r requirements.txt  # if you create one
-# Or manually:
 ./venv/bin/pip install yfinance pandas numpy scipy scikit-learn python-dotenv requests
 ```
 
